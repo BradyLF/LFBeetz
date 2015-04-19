@@ -187,6 +187,14 @@ object {
         -webkit-flex-direction: column;
         flex-direction: column;
     }
+    .right {
+        float: none;
+        text-align: left;
+    }
+    .left {
+        float: none;
+        text-align: left;
+    }
     section {
         min-height: 100vh;
         height: auto;
