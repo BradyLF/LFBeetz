@@ -17,7 +17,6 @@ h1,p {
 
 h1 {
     font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -79,6 +78,39 @@ section {
     position: absolute;
     border-radius: 50%;
     border: 5px solid white;
+    animation: beat 0.4s 0s infinite linear alternate;
+    -webkit-animation: beat 0.4s 0s infinite linear alternate;
+    -moz-animation: beat 0.4s 0s infinite linear alternate;
+}
+
+@keyframes beat {
+  from {
+    transform: scale(0.2, 0.2);
+  }
+
+  to {
+    transform: scale(1.5, 1.0), scaleY(1.0);
+  }
+}
+
+@-webkit-keyframes beat {
+  from {
+    -webkit-transform: scale(1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale(1.5, 1.0), scaleY(1.0);
+  }
+}
+
+@-moz-keyframes beat {
+  from {
+    -moz-transform: scale(1.1, 1.1);
+  }
+
+  to {
+    -moz-transform: scale(1.5, 1.0), scaleY(1.0);
+  }
 }
 
 #b1 {
