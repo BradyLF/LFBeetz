@@ -45,15 +45,13 @@ section {
 }
 
 .arrow {
-    float: middle;
     position: absolute;
-    margin-top: 75vh;
+    top: 75vh;
+    left: 0px;
+    width: 100vw;
     text-align: center;
-    margin-right: auto;
-    left: 0;
-    right: 0;
     font-size: 20vh;
-    color: white;
+    color: #FFFFFF;
 }
 
 #header {
