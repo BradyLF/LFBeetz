@@ -22,7 +22,7 @@ h1 {
 nav {
     position: fixed;
     top: 0px;
-    background-color: #398cc4;
+    background-color: #800000;
     font-size: 30px;
     padding: 13px;
     color: #FFFFFF;
@@ -174,7 +174,7 @@ section {
 
 #main {
     color: #FFFFFF;
-    background-color: #4baefb;
+    background-color: #a20000;
 
     display: -ms-flexbox;
     display: -webkit-flex;
