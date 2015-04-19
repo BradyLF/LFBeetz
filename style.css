@@ -44,6 +44,17 @@ section {
     margin-right: auto;
 }
 
+.arrow {
+    float: middle;
+    position: absolute;
+    margin-top: 75vh;
+    text-align: center;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 20vh;
+    color: white;
+}
 
 #header {
     text-align: center;
@@ -68,7 +79,7 @@ object {
 #logo #speaker {
     width: 70%;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 15%;
 }
 
