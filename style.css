@@ -61,6 +61,7 @@ section {
     margin-left: 20%;
 }
 
+
 #logo {
     width: 80%;
     padding-top: 80%;
@@ -81,6 +82,14 @@ section {
     top: 25%;
     left: 15%;
 
+}
+
+#company-logo {
+	padding-top: 63px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
 }
 
 
@@ -195,4 +204,8 @@ section {
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
+}
+
+#company {
+    text-align: middle;
 }
