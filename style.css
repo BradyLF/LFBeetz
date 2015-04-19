@@ -54,7 +54,7 @@ section {
     color: #FFFFFF;
 }
 
-#header {
+.center {
     text-align: center;
 }
 
@@ -215,6 +215,15 @@ object {
         width: calc(100% - 40px);
         margin-left: 20px;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 70px;
+    }
+    #main .left {
+        margin-top: 70px;
     }
 }
 
