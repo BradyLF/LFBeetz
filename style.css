@@ -61,6 +61,11 @@ section {
     margin-left: 20%;
 }
 
+#header {
+    text-align: center;
+}
+
+
 
 #logo {
     width: 80%;
@@ -91,6 +96,8 @@ section {
     margin-right: auto;
 	width: 200px;
 }
+
+
 
 
 #logo .beat {
@@ -205,7 +212,15 @@ section {
     -webkit-box-align: center;
     align-items: center;
 }
+product {
+
+}
 
 #company {
-    text-align: middle;
+
 }
+
+
+
+
+
